@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>577</width>
+    <height>429</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>20</y>
+     <width>221</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#frame{
+background-color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(116, 0, 81, 255), stop:1 rgba(102, 64, 255, 255));
+border-radius:40px;}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>160</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(106, 0, 91, 255), stop:1 rgba(100, 60, 255, 255));
+border-radius: 10px;
+background-color:white;
+font:10pt &quot;Verdana Pro Semibold&quot;;
+}
+QPushButton:hover{
+border-top-color:#084870;
+background:white;
+color:#c910c9;
+}
+QPushButton:active{
+border-top-color:#409ad6;
+background:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Parrain/Marraine</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>220</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(106, 0, 91, 255), stop:1 rgba(100, 60, 255, 255));
+border-radius: 10px;
+background-color:white;
+font:10pt &quot;Verdana Pro Semibold&quot;;
+}
+QPushButton:hover{
+border-top-color:#084870;
+background:white;
+color:#c910c9;
+}
+QPushButton:active{
+border-top-color:#409ad6;
+background:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Filleul/Filleule</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>280</y>
+      <width>131</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+color:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(106, 0, 91, 255), stop:1 rgba(100, 60, 255, 255));
+border-radius: 10px;
+background-color:white;
+font:10pt &quot;Verdana Pro Semibold&quot;;
+}
+QPushButton:hover{
+border-top-color:#084870;
+background:white;
+color:#c910c9;
+}
+QPushButton:active{
+border-top-color:#409ad6;
+background:white;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Binômage </string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="app_name">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>50</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 30pt &quot;Forte&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Bino'App</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>330</y>
+      <width>121</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+font: 8pt &quot;Bradley Hand ITC&quot;;
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>Modern GUI v-2021</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>31</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="photos.qrc">
+      <normaloff>:/C:/Users/Aude KOUASSY/Desktop/icones/en_arriere.png</normaloff>:/C:/Users/Aude KOUASSY/Desktop/icones/en_arriere.png</iconset>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="photos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

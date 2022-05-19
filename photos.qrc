@@ -1,0 +1,11 @@
+<!DOCTYPE RCC><RCC version='1.0'>
+	<qresource>
+		<file>C:\Users\Aude KOUASSY\Desktop\icones/accueil.png</file>
+		<file>C:\Users\Aude KOUASSY\Desktop\icones/ok.png</file>
+		<file>C:\Users\Aude KOUASSY\Desktop\icones/cooche.png</file>
+		<file>C:\Users\Aude KOUASSY\Desktop\icones/effacer.png</file>
+		<file>C:\Users\Aude KOUASSY\Desktop\icones/delete.png</file>
+		<file>C:\Users\Aude KOUASSY\Desktop\icones/en_arriere.png</file>		
+		<file>C:\Users\Aude KOUASSY\Desktop\icones/menu.png</file>
+	</qresource>
+</RCC

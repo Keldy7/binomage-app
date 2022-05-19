@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: 'Hey Comic', sans-serif;
+}
+header
+{
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient( rgb(116, 0, 81),rgb(102, 64, 255));
+}
+img
+{
+    height: 60%;
+}
+nav
+{
+    width: 1200px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+nav ul
+{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ul li
+{
+    margin-right: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+nav ul li:hover
+{
+    background:none;
+    color: black;
+}
+.conteneur
+{
+    width: 1200px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.conteneur h1
+{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    padding-top: 100px; 
+}
+.conteneur h1 span
+{
+    font-weight: bold;
+}
+.conteneur p
+{
+    color: #fff;
+    line-height: 25px;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.btn1
+{
+    width: 170px;
+    height: 50px;
+    background: rgb(148, 2, 92);
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    font-style: 16px;
+    margin-top: 20px;   
+}
+.btn2
+{
+    width: 150px;
+    height: 50px;
+    background:#fff;
+    border: none;
+    border-radius: 15px;
+    color:  rgb(148, 2, 92);
+    cursor: pointer;
+    font-style: 16px;
+    margin-top: 20px;
+}
+.image img
+{
+    margin-left: 100px;
+    animation: animate 2s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(10deg);
+    }
+    50%
+    {
+        transform: rotate(5deg);
+    }
+    100%
+    {
+        transform: rotate(10deg);
+    }
+}
